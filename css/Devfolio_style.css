@@ -1,0 +1,865 @@
+/* start header section */
+
+.header-section
+{
+  background-image: url(../images/intro-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+}
+.header-section .overlay
+{
+    background-color: rgba(0,0,0,0.55);
+    height: 100%;
+}
+.header-content
+{
+    
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+ text-align: center;
+ color: #fff;
+}
+
+.header-content h1
+{
+ font-size:4rem ;
+}
+
+
+.header-content p
+{
+ font-size:2.5rem ;
+}
+/* start animation */
+.header-content p::after
+{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing
+{
+ 0%
+ {
+    content: "|";
+ }
+
+ 5%
+ {
+    content: "F|";
+ }
+ 10%
+ {
+    content: "Fr|";
+ }
+ 15%
+ {
+    content: "Fro|";
+ }
+ 20%
+ {
+    content: "Fron|";
+ }
+ 25%
+ {
+    content: "Front|";
+ }
+ 30%
+ {
+    content: "Fronte|";
+ }
+ 35%
+ {
+    content: "fronten|";
+ }
+ 40%
+ {
+    content: "frontend|";
+ }
+
+ 45%
+ {
+    content: "frontend D|";
+ 
+} 
+
+ 50%
+
+ {
+    content: "frontend De|";
+ } 
+
+ 55%
+ {
+    content: "frontend Dev|";
+ 
+} 
+ 
+60%
+ {
+    content: "frontend Deve|";
+ } 
+ 
+ 65%
+ {
+    content: "frontend Devel|";
+
+}
+
+70%
+{
+   content: "frontend Develo|";
+
+}
+75%
+{
+   content: "frontend Develop|";
+
+}
+80%
+{
+   content: "frontend Develope|";
+
+}
+
+85%
+{
+   content: "frontend Developer|";
+
+}
+
+100%
+{
+   content: "|";
+
+}
+
+}
+/* end animation */
+
+
+
+
+ /* start styling of nav bar */
+.header-section .nav-link , .header-section .navbar-brand
+{
+    color: #fff !important;
+    margin-right: 0.8rem;
+    margin-top:1rem ;
+    font-weight: bold;
+   
+}
+
+.header-section .navbar-brand
+
+{
+ font-size: 1.7rem;
+ margin-left: 8rem;
+
+}
+
+/* end styling of nav bar */
+
+/* end header section */
+
+
+
+
+
+
+
+/* start About section */
+
+.About-section
+
+{
+padding: 4rem 0;
+background-color: #f5f5f5;
+}
+
+.About-section .container
+
+{
+padding: 4rem;
+background-color: #ffffff;
+
+}
+
+
+.About-section ul
+
+{
+list-style:none ;
+line-height: 2.25rem;
+font-family: Arial,sans-serif;
+}
+
+.About-section .list span
+{
+ font-weight: bolder;
+}
+.About-section .skill
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+@media (min-width:576px) and (max-width:767px)
+{
+    .list
+    {
+      font-size: 10px;
+      font-weight: bolder;
+    }
+}
+
+.About-section .line
+{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #0078ff;
+    margin-bottom: 2rem;
+}
+
+
+
+.About-section .paragrap-collection
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+/* end About section */
+
+
+
+
+/* start SERVICES section and header of protfolio-section */
+
+
+
+.services-section , .protfolio-section , .Blog-section
+
+{
+
+background-color: #f5f5f5;
+text-align: center;
+padding-bottom: 3rem;
+}
+
+
+.services-section header , .protfolio-section header , .Blog-section header
+{
+  text-align: center;
+  position: relative;
+}
+
+.services-section header h3 , .protfolio-section header h3 , .Blog-section header h3
+{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.services-section header p , .protfolio-section header p , .Blog-section header p
+{
+    color: #4e4e4e;
+}
+
+.services-section header .line ,.protfolio-section header .line , .Blog-section header .line
+{
+    width: 2.5rem;
+    height: 0.3rem;
+    background-color: #0078ff;
+    margin-bottom: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.services-section .circle  
+{
+    border:10px solid #0078ff;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    position: relative;
+    left:50%;
+    transform: translatex(-50%);
+    background-color: transparent;
+    transition: 1s  background-color ;
+}
+
+.services-section .circle i 
+{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ font-size: 3rem;
+ 
+}
+
+
+.services-section .my-card:hover .circle 
+{
+    background-color: #0078ff;
+    border:10px solid #CDE1F8;
+
+}
+
+.services-section .my-card:hover .circle i
+{
+    color:#fff;
+
+}
+
+
+
+.services-section .inner
+{
+    background-color: #ffffff;
+    padding:30px 0 ;
+    border-radius: 1rem;
+}
+
+
+.services-section .my-card h2
+{
+  font-size: 1.4rem;
+
+}
+
+.services-section .my-card p
+{
+  
+  color: #4e4e4e;
+}
+
+
+
+
+/* end SERVICES section and header of protfolio-section */
+
+
+
+/* start counter section */
+
+
+
+.counter-section
+{
+
+    background-color: #f5f5f5;
+    padding: 12rem 0;
+    text-align: center;
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.counter-section .overlay
+{
+    background-color: #0078ff;
+    opacity: 0.9;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.counter-section .circle
+{
+    border:10px solid #CDE1F8;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    left:50%;
+    transform: translatex(-50%);
+    margin-top: 8rem;
+}
+
+
+.counter-section .circle i
+{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ font-size: 1.5rem;
+ color:#fff;
+ font-weight: bolder;
+}
+
+.counter-section p
+{
+    color:#fff;
+    font-weight: 400;
+}
+
+.counter-section .number
+{
+    font-size: 2rem;
+}
+
+
+@media (min-width:0) and (max-width:575px)
+{
+    .counter-section
+    {
+    
+        height: 200vh;
+    }
+    
+}
+
+
+/* end counter section */
+
+
+
+
+
+/* start PORTFOLIO section */
+
+
+
+.protfolio-section
+{
+    padding: 4rem 0;
+}
+
+.protfolio-section .card
+{
+    cursor: pointer;
+    overflow: hidden;
+  
+}
+
+.protfolio-section .card img
+{
+    transition: 1s transform;
+}
+
+.protfolio-section .card:hover img
+{
+    transform: scale(1.2,1.2);
+}
+
+.protfolio-section .card-text
+{
+    text-align: left;
+    line-height: 1rem;
+}
+
+
+.protfolio-section .circle
+{
+    border:1px solid #0078ff ;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+    left:80%;
+}
+
+
+.protfolio-section .circle i
+{
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+ font-size:1.3rem;
+ color:#0078ff;
+ 
+}
+
+.protfolio-section .card-body p
+{
+ font-size: 1.2rem;
+ font-weight: 600;
+}
+
+
+.protfolio-section .card-body .more
+{
+ font-size: 0.8rem;
+ font-weight: 600;
+}
+
+
+
+.protfolio-section .card-body span
+{
+   color: #0078ff ;
+   
+}
+
+
+@media (min-width:0) and (max-width:1199px)
+{
+ .protfolio-section .modal-body img
+ {
+    width: 100%;
+ }
+
+}
+
+/*class to change background-color and border in bootstarp by me */
+.protfolio-section .modal-content 
+{
+    background-color: transparent !important;
+    border:none !important ;  
+}
+
+
+/* end PORTFOLIO section */
+
+
+
+
+
+
+
+/* start testimonial section */
+
+.testimonial-section
+{
+    background-color: #f5f5f5;
+    text-align: center;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 18rem 0;
+    color:#fff;
+}
+
+
+.testimonial-section .overlay
+
+{
+ position: absolute;
+ background-color: #0078ff;
+ opacity: 0.9;
+ width: 100%;
+ height: 100%;
+ top: 0;
+ left: 0;
+ padding: 4rem 0;
+}
+
+
+.testimonial-section .overlay img
+{
+  border-radius: 50%;
+  margin-bottom: 0.8rem;
+}
+
+
+
+.testimonial-section .overlay p
+{
+  font-size: 1.25rem;
+  line-height: 1rem;
+  font-weight: lighter;
+}
+
+.testimonial-section .overlay .circle
+{
+
+    border: 1px solid #fff;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.7rem;
+}
+
+
+.testimonial-section .overlay .circle i
+
+{
+ color:#0078ff ;
+ font-size: 1.8rem;
+ position: absolute;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+/* start change carousel-indicators in bootstarp by me */
+
+
+.testimonial-section .carousel-indicators 
+{
+    top: 100% !important;
+}
+
+
+.carousel-indicators li 
+{
+    width: 20px !important;
+    height: 7px !important;
+}
+
+/* end change carousel-indicators in bootstarp by me */
+
+
+/* end testimonial section */
+
+
+
+
+/* start Blog section */
+
+
+.Blog-section
+
+{
+    padding: 4rem 0;
+}
+
+.Blog-section .card-body
+{
+    position: relative;
+}
+
+.Blog-section .rectangle-contanier
+{
+ border:1px solid #0078ff;
+ background-color: #0078ff;
+ width: 6rem;
+ height: 2rem;
+ border-radius: 0.3rem;
+ position: absolute;
+ top:-15px;
+ left:50%;
+ transform: translateX(-50%);
+}
+
+.Blog-section .card-body h5
+{
+    transition: 1s color;
+}
+
+.Blog-section .card-body h5:hover
+{
+    color:#0078ff ;
+    cursor: pointer;
+}
+
+
+.Blog-section .card-title
+{
+  color: #fff;
+  font-size:0.8rem;
+  font-weight:400;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.Blog-section .card-body .card-text
+{
+ color:#4e4e4e;
+ text-align: left;
+ margin-bottom: 4.5rem;
+}
+.Blog-section .card-footer 
+{
+    background-color:#f5f5f5;
+    position: absolute;
+    bottom:0%;
+    left: 0%;
+    width: 100%;
+}
+
+
+.Blog-section .card-footer img
+{
+  
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+ 
+}
+
+/* end Blog section */
+
+
+
+/* start Contact section */
+
+
+
+.contact-section
+{
+    background-color:#f5f5f5;
+    padding:28rem 0;
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.contact-section .overlay
+{
+    background-color: #0078ff;
+    opacity: 0.9;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-section .container
+{
+ background-color: #fff;
+ margin-top: 7rem;
+ padding:3rem 0;
+padding-right:2rem ;
+}
+
+.contact-section .line
+{
+    width: 5.5rem;
+    height: 0.2rem;
+    background-color: #0078ff;
+    margin-bottom: 2rem;
+}
+
+.contact-section input , textarea
+{
+    
+   border: 1px solid #CED4DA;
+   width: 100%;
+   border-radius: 0.2rem;
+   padding: 0.5rem;
+   resize: none;
+}
+
+.contact-section input
+{
+    height: 2.5rem;
+}
+
+.contact-section .btn
+{
+    color: #fff;
+    font-size: 1.3rem;
+    background-color:#0078ff ;
+    padding: 1rem 1.8rem;
+    border-radius: 2rem;
+}
+
+
+.contact-section p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
+.contact-section ul
+{
+  list-style: none;
+  line-height: 2rem;
+  position: relative;
+  left: -9%;
+}
+
+.contact-section ul i
+{
+ color:#0078ff ;
+ padding: 0.5rem;
+ font-size:0.8rem ;
+}
+
+.social-icons span{
+
+    border:0.2rem solid #0078ff;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    margin-right: 7px; 
+    position: relative;
+    transition: 1s border , 1s background-color;
+
+} 
+.social-icons span i{
+    padding: 12px 11px;
+    font-size: 1.5rem;
+    position: absolute;
+    top:-15%;
+    left: 50%;
+    transform: translatex(-50%);
+    transition: 1s color;
+}
+
+
+.social-icons span:hover
+{
+    border:0.2rem solid #CDE1F8;
+    background-color: #0078ff;
+}
+
+
+.social-icons span:hover i
+{
+   color: #fff;
+}
+
+
+
+.contact-section .p-footer
+{
+    color: #fff;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-top: 3rem;
+}
+
+@media (min-width:0) and (max-width:767px)
+{
+
+ .contact-section
+ {    
+   padding:40rem 0;
+   
+ }
+
+
+ .contact-section .btn
+ {
+     margin-bottom:3rem;
+ }
+
+ .contact-section .Touch
+ {
+     margin-left: 3rem;
+ }
+
+}
+
+
+/* end Contact section */
+
+
